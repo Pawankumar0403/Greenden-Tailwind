@@ -19,4 +19,4 @@ A fully responsive ecommerce website for selling plants, built using HTML, Tailw
 
 ## Live Demo
 
-Check out the live demo of the ecommerce plant selling site:
+Check out the live demo of the ecommerce plant selling site: https://pawankumar0403.github.io/Greenden-Tailwind/
