@@ -16,12 +16,12 @@
     <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
         <h1 class="text-2xl font-semibold">GREENDEN</h1>
 
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 md:hidden" fill="none" viewBox="0 0 24 24"
+        <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 md:hidden" fill="none" viewBox="0 0 24 24"
             stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
         </svg>
 
-        <ul class="flex gap-5 text-gray-600 hidden md:flex">
+        <ul class="gap-5 text-gray-600 hidden md:flex">
             <li>
                 <a class="hover:underline hover:text-black" href="index.html">Home</a>
             </li>
@@ -33,6 +33,25 @@
             </li>
         </ul>
     </nav>
+
+    <!-- Side Navbar -->
+
+    <section id="sidenav" class="bg-green-100 fixed z-20 top-0 transition-all duration-1000" style="width: 50%; height: 100vh; right: -50%;">
+        <div class="text-right p-5">
+            <p id="closenav" class="inline cursor-pointer">X</p>
+        </div>
+        <ul class="gap-10 items-center text-gray-600 flex flex-col ">
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="products.html">Products</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </section>
 
     <!-- Header section -->
 
@@ -135,25 +154,31 @@
     <section class="p-4">
         <h1 class="text-3xl font-bold mt-5 text-center">Customer Reviews</h1>
         <div class="flex flex-col gap-5 justify-center m-5">
-        <div class="bg-green-800 p-5 rounded container">
-            <p class="text-white text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni id amet, dolorem aliquam, ipsum
-                consequatur animi, ipsa aperiam fugit voluptatem veniam quasi aut nam quisquam dolores sint blanditiis
-                at natus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, eum.</p>
-            <p class="text-yellow-300 text-left font-bold">Gautham Menon</p>
+            <div class="bg-green-800 p-5 rounded container">
+                <p class="text-white text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni id amet,
+                    dolorem aliquam, ipsum
+                    consequatur animi, ipsa aperiam fugit voluptatem veniam quasi aut nam quisquam dolores sint
+                    blanditiis
+                    at natus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, eum.</p>
+                <p class="text-yellow-300 text-left font-bold">Gautham Menon</p>
+            </div>
+            <div class="bg-green-800 p-5 rounded container">
+                <p class="text-white text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni id amet,
+                    dolorem aliquam, ipsum
+                    consequatur animi, ipsa aperiam fugit voluptatem veniam quasi aut nam quisquam dolores sint
+                    blanditiis
+                    at natus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, dolorem.</p>
+                <p class="text-yellow-300 text-left font-bold">Ajith Kumar</p>
+            </div>
+            <div class="bg-green-800 p-5 rounded container">
+                <p class="text-white text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni id amet,
+                    dolorem aliquam, ipsum
+                    consequatur animi, ipsa aperiam fugit voluptatem veniam quasi aut nam quisquam dolores sint
+                    blanditiis
+                    at natus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, vel?</p>
+                <p class="text-yellow-300 text-left font-bold">Suryavarma</p>
+            </div>
         </div>
-        <div class="bg-green-800 p-5 rounded container">
-            <p class="text-white text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni id amet, dolorem aliquam, ipsum
-                consequatur animi, ipsa aperiam fugit voluptatem veniam quasi aut nam quisquam dolores sint blanditiis
-                at natus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, dolorem.</p>
-            <p class="text-yellow-300 text-left font-bold">Ajith Kumar</p>
-        </div>
-        <div class="bg-green-800 p-5 rounded container">
-            <p class="text-white text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni id amet, dolorem aliquam, ipsum
-                consequatur animi, ipsa aperiam fugit voluptatem veniam quasi aut nam quisquam dolores sint blanditiis
-                at natus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, vel?</p>
-            <p class="text-yellow-300 text-left font-bold">Suryavarma</p>
-        </div>
-    </div>
     </section>
 
     <!-- Newsletter -->
@@ -174,6 +199,7 @@
         <p>@ 2021 Greenday.com</p>
     </section>
 
+    <script src="index.js"></script>
 </body>
 
 </html>
