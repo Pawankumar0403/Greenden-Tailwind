@@ -2,7 +2,7 @@
 
 # Ecommerce Plant Selling Site
 
-A fully responsive ecommerce website for selling plants, built using HTML, Tailwind CSS
+A fully responsive ecommerce website for selling plants, built using HTML, Tailwind CSS,Javascript
 
 ## Features
 
@@ -15,6 +15,7 @@ A fully responsive ecommerce website for selling plants, built using HTML, Tailw
 
 * HTML: For structuring the website's content
 * Tailwind CSS: For styling the website with a mobile-first approach and responsive design
+* Javascript: Used js for navbar and search purposes
 
 
 ## Live Demo
